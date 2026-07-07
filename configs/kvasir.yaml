@@ -1,0 +1,19 @@
+dataset:
+  name: "Kvasir-SEG"
+  root_dir: "data/Kvasir-SEG"
+  image_dir: "data/Kvasir-SEG/images"
+  mask_dir: "data/Kvasir-SEG/masks"
+  image_extension: ".jpg"
+  mask_extension: ".jpg"
+  input_size: [256, 256]
+  num_classes: 1
+  description: "Kvasir-SEG Gastrointestinal Polyp Segmentation Dataset"
+
+training:
+  epochs: 50
+
+save:
+  checkpoint_dir: "checkpoints/kvasir"
+  log_dir: "logs/kvasir"
+  best_model_name: "kvasir_best.hdf5"
+  log_name: "kvasir_log.csv"

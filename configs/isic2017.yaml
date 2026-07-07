@@ -1,0 +1,19 @@
+dataset:
+  name: "ISIC2017"
+  root_dir: "data/ISIC2017"
+  image_dir: "data/ISIC2017/images"
+  mask_dir: "data/ISIC2017/masks"
+  image_extension: ".jpg"
+  mask_extension: ".png"
+  input_size: [256, 256]
+  num_classes: 1
+  description: "ISIC 2017 Skin Lesion Segmentation Dataset"
+
+training:
+  epochs: 50
+
+save:
+  checkpoint_dir: "checkpoints/isic2017"
+  log_dir: "logs/isic2017"
+  best_model_name: "isic2017_best.hdf5"
+  log_name: "isic2017_log.csv"
