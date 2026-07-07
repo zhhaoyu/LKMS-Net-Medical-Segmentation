@@ -29,6 +29,7 @@ data/
 - TensorFlow 2.9.1 (GPU version)
 
 conda activate tensorflow-gpu
+
 pip install -r requirements.txt
 
 ## Training
