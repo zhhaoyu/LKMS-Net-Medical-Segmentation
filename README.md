@@ -6,8 +6,8 @@ LKMS-Net for medical image segmentation on ISIC2017, ISIC2018, and Kvasir-SEG da
 
 Download datasets from the official sources:
 
-- ISIC 2017: https://challenge.isic-archive.com/data/
-- ISIC 2018: https://challenge2018.isic-archive.com/task1/training
+- ISIC 2017:https://challenge.isic-archive.com/data/#2017
+- ISIC 2018: https://challenge.isic-archive.com/data/#2018
 - Kvasir-SEG: https://www.kaggle.com/datasets/debeshjha1/kvasirseg
 
 Place them in `data/` folder as:
@@ -25,6 +25,10 @@ data/
 
 ## Environment
 
+- Python 3.8.19
+- TensorFlow 2.9.1 (GPU version)
+
+```bash
 conda activate tensorflow-gpu
 pip install -r requirements.txt
 
