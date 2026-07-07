@@ -28,7 +28,6 @@ data/
 - Python 3.8.19
 - TensorFlow 2.9.1 (GPU version)
 
-```bash
 conda activate tensorflow-gpu
 pip install -r requirements.txt
 
