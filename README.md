@@ -42,7 +42,7 @@ python test.py --model_path checkpoints/isic2017/isic2017_best.hdf5 --image_path
 
 @article{zhhaoyu2026lkmsnet,
   title={LKMS-Net for Medical Image Segmentation},
-  author={Zhao Yu},
+  author={Zhhao Yu},
   year={2026}
 }
 
